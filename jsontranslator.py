@@ -4,7 +4,7 @@ from googletrans import Translator
 translator = Translator()
 
 #File open.
-read=open("json.txt", "r")
+read=open("json.txt", "r", encoding="utf-8")
 write=open("new.txt", "a+", encoding="utf-8")
 
 #For in read file.
