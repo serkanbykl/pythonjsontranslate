@@ -5,7 +5,7 @@ translator = Translator()
 
 #File open.
 read=open("json.txt", "r")
-write=open("new.txt", "a+")
+write=open("new.txt", "a+", encoding="utf-8")
 
 #For in read file.
 for j in read:
